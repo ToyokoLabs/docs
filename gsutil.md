@@ -92,9 +92,32 @@ To upload large files (>250Mb) it is advisable to do it in multiple parts using 
 Upload files in multiple parts
 ------------------------------
 
+The first step is to verify that you gsutil installation supports this functionality. There is a module called *crcmod* that must be compiled. To verify this run this command:
+
 ```
 gsutil version -l
 ```
+
+and look for this line:
+
+```
+compiled crcmod: True
+```
+
+If it status is *True*, you can jump to step *Enable parallel upload* . If it is false, you need to compile it, this procedure is different for each platform, please read here: https://cloud.google.com/storage/docs/gsutil/addlhelp/CRC32CandInstallingcrcmod
+
+
+Enable parallel upload:
+
+Edit your .boto file (it should be in your home directory, in Linux is ~/.boto), and add these lines:
+
+```
+parallel_composite_upload_threshold = 250M
+parallel_composite_upload_component_size = 80M
+```
+
+You can change the values (according to your internet speed), if you want to change them, use higher number than these.
+Reset the terminal and the next gsutil cp command you will run, will run in parallel if the file is larger than the value in *parallel_composite_upload_threshold* variable.
 
 
 Resources

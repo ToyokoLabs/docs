@@ -82,7 +82,7 @@ gsutil cp "readme.txt" gs://storage.balseiro.toyoko.io
 
 Use of quotes are mandatory when the file name has white spaces.
 
-This simple upload can work for large files since it has built-in resume, that means that if the upload is interrupted, the next try is intented it will continue the upload from the last chunck instead of starting over.
+This simple upload can work for large files since it has built-in resume for files larger than 8Mb, that means that if the upload is interrupted, the next try is intented it will continue the upload from the last chunck instead of starting over.
 
 To upload large files (>250Mb) it is advisable to do it in multiple parts using the configuration shown in next section
 
@@ -90,7 +90,9 @@ To upload large files (>250Mb) it is advisable to do it in multiple parts using 
 Upload files in multiple parts
 ------------------------------
 
-XXXXXXX
+```
+gsutil version -l
+```
 
 
 Resources

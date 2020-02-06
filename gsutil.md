@@ -2,7 +2,7 @@ How to use gsutil to manage files
 =================================
 
 
-To copy, move or delete files from your machine to a Google Storage, you can use the Google GUI (aka [Google Cloud Console](https://console.cloud.google.com/)) or the **gsutil** command. This tutorial explains the installation and use of gsutil to handle files in the command line.
+To copy, move or delete files from your machine to a Google Storage, you can use the Google GUI (aka <a href="https://console.cloud.google.com/" target="_blank">Google Cloud Console</a>) or the **gsutil** command. This tutorial explains the installation and use of gsutil to handle files in the command line.
 
 Before installing **gsutil**, let's create a bucket using the Google Cloud Console.
 
@@ -10,7 +10,7 @@ Before installing **gsutil**, let's create a bucket using the Google Cloud Conso
 Go to storage
 -------------
 
-In the Google Cloud Console, go to Storage and then Browse:
+In the <a href="https://console.cloud.google.com/" target="_blank">Google Cloud Console</a>, go to Storage and then Browse:
 
 
 ![Image of go to storage](imgs/Screen%20Shot%202020-02-04%20at%206.10.46%20PM.png?raw=true)

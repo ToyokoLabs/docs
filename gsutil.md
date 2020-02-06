@@ -28,16 +28,16 @@ Next step is to name the bucket. Since the name must be unique, a good idea is t
 
 ![Image of name bucket](imgs/Screen%20Shot%202020-02-04%20at%205.58.37%20PM.png?raw=true)
 
-Next step is to select the region. Unless you have a specific needs, choose *Region* in Location Type and *us-west-1 (Oregon)* in Location.
+Next step is to select the region. Unless you have a specific needs, choose *Region* in Location Type and *us-west-1 (Oregon)* in Location, then press CONTINUE.
 
 ![Image of name bucket](imgs/Screen%20Shot%202020-02-04%20at%206.00.23%20PM.png?raw=true)
 
 
-Select the storage class, select *Standard*.
+Select the storage class, select *Standard*, then press CONTINUE.
 
 ![Image of name bucket](imgs/Screen%20Shot%202020-02-04%20at%206.00.36%20PM.png?raw=true)
 
-In the *access control*, select *Fine-grained*.
+In the *access control*, select *Fine-grained*, then press CONTINUE.
 
 ![Image of name bucket](imgs/Screen%20Shot%202020-02-04%20at%206.00.50%20PM.png?raw=true)
 

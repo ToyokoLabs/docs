@@ -24,7 +24,9 @@ Press CREATE BUCKET button in the console:
 ![Image of create bucket](imgs/Screen%20Shot%202020-02-04%20at%205.58.15%20PM.png?raw=true)
 
 
-Next step is to name the bucket. Since the name must be unique, a good idea is to use a domain name, for example myuniquename.toyoko.io, change toyoko.io for your domain, then press CONTINUE.
+Next step is to name the bucket. Since the name must be unique (try joining multiple words and the name of your institute for example), you can also use a domain name if this belongs to you or you are authorized to use it, for example myuniquename.toyoko.io, change toyoko.io for your domain, then press CONTINUE.
+
+**Note**: If you want to use a domain name and you are not authorized to do so, go to https://cloud.google.com/storage/docs/domain-name-verification for more information on how to get the authorization.
 
 ![Image of name bucket](imgs/Screen%20Shot%202020-02-04%20at%205.58.37%20PM.png?raw=true)
 

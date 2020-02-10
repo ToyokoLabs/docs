@@ -120,6 +120,19 @@ You can change the values (according to your internet speed), if you want to cha
 Reset the terminal and the next gsutil cp command you will run, will run in parallel if the file is larger than the value in *parallel_composite_upload_threshold* variable.
 
 
+NOTE
+====
+
+If you have a 403 error when uploading a file, check that the folder name exists in Google Storage and that you are authorized, if in doubt, run this:
+
+```
+gcloud auth login
+```
+
+Copy the link in a browser, authenticate and copy the token in the terminal.
+
+
+
 Resources
 ---------
 

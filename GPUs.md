@@ -1,4 +1,23 @@
+
+
+Available GPUs
+==============
+
+![Image of create bucket](imgs/Screen%20Shot%202020-02-10%20at%2012.32.09%20AM.png?raw=true)
+
+
+Creating a VM with GPUs
+=======================
+
+![Image of create bucket](imgs/Screen%20Shot%202020-02-10%20at%2012.31.39%20AM.png?raw=true)
+
+
+
+
+
+
 When to use TPUs
+
 Cloud TPUs are optimized for specific workloads. In some situations, you might want to use GPUs or CPUs on Compute Engine instances to run your machine learning workloads. In general, you can decide what hardware is best for your workload based on the following guidelines:
 
 CPUs

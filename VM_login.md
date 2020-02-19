@@ -1,5 +1,4 @@
 
-
 How to start a VM and login
 ===========================
 
@@ -8,11 +7,11 @@ Start the VM
 
 Go to the Console, Compute Engine, VM Instance. You should see the list of available VMs. Select the VM you want to start (1 in the screenshot) and then press the start button (2 in the screenshot)
 
-![Image of go to storage](imgs/fig1.png?raw=true)
+![vm in the compute console](imgs/fig1.png?raw=true)
 
-The start up process may take a time (up to 5 minutes), after this, you should see a green marker next to the machine name.
+The start up process may take a time (up to 5 minutes), after this, you should see a green marker next to the VM name.
 
-![Image of go to storage](imgs/fig2.png?raw=true)
+![VM working](imgs/fig2.png?raw=true)
 
 
 Login from the web console
@@ -20,9 +19,12 @@ Login from the web console
 
 Click on the SSH button in the line of the VM you want to log in:
 
-![Image of go to storage](imgs/fig3.png?raw=true)
+![ssh button](imgs/fig3.png?raw=true)
 
-This will start a popup windows that will work as a terminal. Note that this windows also has the capability to upload/download files to your VM. This is in the menu associated with the gear in the top right part of the windows.
+This will start a popup windows that will work as a terminal. Note that this windows also has the capability to upload/download files to your VM. This is in the menu associated with the gear in the top right part of the windows:
+
+![web terminal with upload download menu](imgs/Screen%20Shot%202020-02-19%20at%203.38.05%20PM.png?raw=true)
+
 
 Login from the cloud shell
 --------------------------
@@ -31,7 +33,7 @@ In the cloud shell, run the login command.
 
 The cloud shell:
 
-![Image of go to storage](imgs/fig4.png?raw=true)
+![the cloud shell](imgs/fig4.png?raw=true)
 
 
 Login command
@@ -52,7 +54,7 @@ gcloud compute ssh xxxtesla100 --zone=us-west2-a --ssh-flag=-v
 Permissions
 -----------
 
-Check that the user has a role with at least the following permissions:
+In case of 403 error, check that the user has a role with at least the following permissions:
 
 compute.instances.osLogin
 compute.instances.setMetadata

@@ -67,3 +67,12 @@ For example:
 ```
 gcloud compute ssh xxxtesla100 --zone=us-west2-a --ssh-flag=-v 
 ```
+
+
+More information
+----------------
+
+https://cloud.google.com/compute/docs/instances/connecting-to-instance
+
+https://cloud.google.com/compute/docs/instances/managing-instance-access
+

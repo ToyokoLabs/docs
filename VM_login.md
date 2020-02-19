@@ -11,6 +11,14 @@ Go to the Console, Compute Engine, VM Instance. You should see the list of avail
 [INSERT IMAGE]
 
 
+
+
+Permissions
+-----------
+
+
+
+
 ```
 gcloud organizations add-iam-policy-binding [PROJECTID] --member='user:[email]' --role='roles/compute.osLoginExternalUser'
 ```
@@ -22,8 +30,24 @@ gcloud organizations add-iam-policy-binding 333411111111 --member='user:user@exa
 ````
 
 
-Login command:
 
-gcloud compute ssh [VMANAME] --zone=[ZONE] --ssh-flag=-v 
 
+Login from the web console
+--------------------------
+
+
+
+Login from the cloud shell
+--------------------------
+
+Login command
+-------------
+
+```
+gcloud compute ssh [VM_ANAME] --zone=[ZONE] --ssh-flag=-v 
+```
+
+For example:
+```
 gcloud compute ssh xxxtesla100 --zone=us-west2-a --ssh-flag=-v 
+```

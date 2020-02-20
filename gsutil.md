@@ -141,3 +141,5 @@ https://cloud.google.com/storage/docs/gsutil_install
 https://cloud.google.com/storage/docs/quickstart-gsutil?hl=en_US
 
 https://cloud.google.com/storage/docs/working-with-big-data
+
+https://www.cloudbooklet.com/gsutil-cp-copy-and-move-files-on-google-cloud/
